@@ -1,7 +1,7 @@
 
 import {useState} from 'react'
 
-const create = () => {
+const CreatePeople = () => {
     const initialState={name:''}
     const [people, setPeople] = useState(initialState)
 
@@ -50,4 +50,4 @@ const create = () => {
     )
 }
 
-export default create
+export default CreatePeople
