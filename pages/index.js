@@ -5,8 +5,10 @@ export default function Home() {
     <div>
 
       <h1>Home</h1>
-        <Link href='/products/create'>Crea pdto</Link>
-        <Link href='/people/create'>Crea person</Link>
+        <div>
+          <Link href='/products/create'>Crea pdto</Link>
+          <Link href='/people/create'>Crea person</Link>
+        </div>
     </div>
   )
 }
