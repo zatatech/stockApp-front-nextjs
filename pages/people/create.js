@@ -16,7 +16,7 @@ const CreatePeople = () => {
     }
 
     const clickHandler = (event)=>{
-        fetch(`${process.env.PATH}people`, {
+        fetch(`${process.env.NEXT_PUBLIC_BACKEND_RUTA}people`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
