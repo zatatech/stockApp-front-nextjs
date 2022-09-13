@@ -49,14 +49,14 @@ export function Create(props) {
                 type="text" 
                 name="name" 
                 value={product.name} 
-                placeholder="Name"
+                placeholder="Name5"
                 onChange={changeHandler} >
             </input>
             <input 
                 type="text"
                 name="price" 
                 value={product.price}
-                placeholder="Price"
+                placeholder="Price5"
                 onChange={changeHandler} >
             </input>
             <button onClick={clickHandler}>Crear</button>
