@@ -38,13 +38,13 @@ const CreatePeople = () => {
                     type="text" 
                     name="name"
                     value={people.name}
-                    placeholder="Nombre" 
+                    placeholder="Nombre2" 
                     onChange={changeHandler}></input>
                 <input 
                     type="text" 
                     name="last"
                     value={people.last}
-                    placeholder="Apellido" 
+                    placeholder="Apellido2" 
                     onChange={changeHandler}></input>
         </>
     )
